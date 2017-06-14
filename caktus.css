@@ -19,9 +19,9 @@ border: 1px solid green;
 }
 
 .main-content {
--webkit-box-shadow: 1px 1px 66px -15px rgba(0, 0, 0, 0);
--moz-box-shadow: 1px 1px 66px -15px rgba(0, 0, 0, 0);
-box-shadow: 1px 1px 66px -15px rgba(0, 0, 0, 0);
+-webkit-box-shadow: 0px;
+-moz-box-shadow: 0px;
+box-shadow: 0px;
 margin-bottom: 40px;
 font-family: 'lato', sans-serif;
 background-color: #fff;
