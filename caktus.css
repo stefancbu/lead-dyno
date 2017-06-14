@@ -29,25 +29,39 @@ border: 1px solid green;
 }
 
 .main-content {
--webkit-box-shadow: 0px;
--moz-box-shadow: 0px;
-box-shadow: 0px;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
 margin-bottom: 40px;
 font-family: 'lato', sans-serif;
 background-color: #fff;
 padding-bottom: 6px;
 }
 
+.navi-left a {
+color: #000;
+font-weight: 400;
+font-size: 18px;
+-webkit-font-smoothing: antialiased;
+}
+.navi-left .active a {
+color: #000;
+font-weight: bolder;
+text-shadow: none;
+}
+
 .custom-header {
 border-bottom: 1px solid #efefef;
 background: #000;
--webkit-box-shadow: 0px
--moz-box-shadow: 0px;
-box-shadow: 0px;
+-webkit-box-shadow: none
+-moz-box-shadow: none;
+box-shadow: none;
 }
 
 .sharing-section {
 border: 1px solid #efefef;
+border-radius: 2px
+background: #fafafa;
 margin-bottom: 20px;
 margin-left: -16px;
 margin-right: -16px;
@@ -55,7 +69,7 @@ padding-left: 20px;
 padding-right: 20px;
 padding-bottom: 18px;
 background-color: #fff;
--webkit-box-shadow: 0px;
--moz-box-shadow: 0px;
-box-shadow: 0px;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
 }
